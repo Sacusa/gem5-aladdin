@@ -1,0 +1,5 @@
+Import('*')
+
+SimObject('AladdinInterface.py')
+Source('aladdin_interface.cc')
+DebugFlag('AladdinInterface')
